@@ -19,8 +19,8 @@
    Doc2Vec + RF          |   0.81       |   0.35    |   0.91
    RNN + text_to_sequence|   0.99       |   0.96    |   0.99
 
-   I also tried to catch some hyperparameter using different methods and libraries :<br>
 
+   I also tried to catch some hyperparameter using different methods and libraries :<br>
 
    Model                 |  Time (in min)  |  Accuracy 
    ----------------------|-----------------|-----------
@@ -30,3 +30,5 @@
    Skopt                 |     19.3        |   0.97    
    Hyperopt              |     28:12       |   0.95
    Optuna                |     40          |   0.97
+
+   Optuna is taking more time and giving accuracy which is better than some models.
